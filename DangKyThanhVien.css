@@ -1,0 +1,17 @@
+.mytextbox {
+    color: #99FF33;
+    background-color: #006699;
+    border: 1px solid #996633;
+    width: 300px;
+}
+
+#form1 table {
+    border: 5px groove #993366;
+    background-color: #FFDDDD;
+    color: #003399;
+    margin: 0px auto;
+}
+
+#form1 table td {
+    border: 1px solid #CC9999;
+}

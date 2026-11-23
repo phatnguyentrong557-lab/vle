@@ -1,0 +1,122 @@
+/*--định nghĩa chung cho toàn trang--*/
+body, td, th {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    color: blue;
+}
+
+body {
+    background-color: white;
+    background-image: url(abc.gif);
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: 13px;
+}
+
+a:link, a:active, a:visited {
+    color: blue;
+}
+
+a:hover {
+    color: red;
+}
+
+h1, h2, h3 {
+    color: blue;
+    padding: 2px;
+    margin: 0px;
+}
+
+/*--định nghĩa css cho các vùng của layout--*/
+#container {
+    margin: 0px auto;
+    width: 950px;
+    border: 1px dotted blue;
+}
+
+#top {
+    height: 150px;
+    background-color: red;
+    border-bottom: 1px dotted blue;
+}
+
+#menu {
+    height: 20px;
+    background-color: yellow;
+    text-align: center;
+    padding-top: 5px;
+    border-bottom: medium double blue;
+}
+
+#middle > div {
+    min-height: 400px;
+}
+
+#middle-left {
+    width: 245px;
+    float: left;
+    border-right: 1px dotted blue;
+}
+
+#middle-center {
+    width: 700px;
+    float: right;
+}
+
+#bottom {
+    height: 20px;
+    background-color: yellow;
+    text-align: center;
+    padding-top: 5px;
+    font-variant: small-caps;
+    border-top: medium double blue;
+    clear: both;
+}
+
+/*--định nghĩa ul, li trong #menu ngang--*/
+#menu ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu ul li {
+    display: inline-block;
+    padding: 0px 10px 0px 10px;
+}
+
+/*--định nghĩa legend, fieldset, ul, li trong #middle-left--*/
+#middle-left fieldset {
+    margin: 10px 5px 10px 5px;
+    border: 1px dotted red;
+    padding-bottom: 10px;
+    min-height: 100px;
+}
+
+#middle-left legend {
+    padding: 5px 20px 5px 20px;
+    border: 1px dotted red;
+    font-weight: bold;
+    color: red;
+}
+
+#middle-left ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: inside;
+    list-style-type: square;
+}
+
+#middle-left ul li {
+    padding: 5px 0px 5px 0px;
+    border-bottom: 1px dotted blue;
+}
+
+#middle-left li:hover {
+    background-color: yellow;
+    border-bottom: medium double red;
+}
